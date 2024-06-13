@@ -23,7 +23,7 @@ export default function AccountMenu() {
   };
   const logout=(val)=>{
     if(val==='logout'){
-        window.location='/#/Login';
+        window.location='./#/Login';
         
     }
   }
