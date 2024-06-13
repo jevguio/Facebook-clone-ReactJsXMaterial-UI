@@ -9,12 +9,12 @@ import '../src/index.css'
 import App from './App.jsx';
 import ThemeContextProvider from './context/ThemeContext';
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 import { CssBaseline } from '@mui/material'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/Facebook-clone-ReactJsXMaterial-UI/",
     element: <App></App>,
