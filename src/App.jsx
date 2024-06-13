@@ -12,7 +12,7 @@ const App = () => {
     setModalOpen(true);
   };
   const handleProceed = () => {
-    window.location='/Facebook-clone-ReactJsXMaterial-UI/login';
+    window.location='./login';
   };
 
   useEffect(() => {
