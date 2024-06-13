@@ -1,13 +1,13 @@
 {
   "name": "https://jevguio.github.io/Facebook-clone-ReactJsXMaterial-UI/",
-  "homepage":"./",
+  "homepage": "./",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite --host",
     "build": "vite build ",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
