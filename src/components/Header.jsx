@@ -26,7 +26,7 @@ const Header = ({ tab, setTab }) => {
 
           <FacebookRoundedIcon color='primary' sx={{ fontSize: '40px', textAlign: 'left'}}></FacebookRoundedIcon>
         </IconButton>
-        <Box sx={{ display: portrait ? 'none' : 'flex', position: 'relative', borderRadius: '4px', borderRadius: '20px',  marginLeft: 0, width: '20%' }}>
+        <Box sx={{ display: portrait ? 'none' : 'flex', position: 'relative', borderRadius: '20px',  marginLeft: 0, width: '20%' }}>
 
           <Search sx={{   textAlign: 'center', margin: '6px' }} />
           <InputBase
