@@ -27,7 +27,7 @@ This project is a Facebook clone built using React.js and Material-UI. The appli
 ### Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/facebook-clone.git
+git clone https://github.com/jevguio/Facebook-clone-ReactJsXMaterial-UI.git
 cd facebook-clone
 ```
 ### Install dependencies:
