@@ -46,7 +46,7 @@ export default function App({ dataFriend }) {
         <Box sx={{minWidth:'200px', maxWidth: '400px', padding: '0', margin: '10px', borderRadius: '15px', boxShadow: 'black 0 0 10px -5px' }}>
             <Card sx={{ padding: 0, margin: 0 }}>
                 <CardContent sx={{ padding: 0, margin: 0, textAlign: 'center' }} >
-                    <Box component='img' src={dataFriend.img} sx={{ minWidth:'200px',width:'100%',maxWidth: '400px', margin: 0, padding: 0, aspectRatio: '2/1', objectFit: 'cover' }}></Box>
+                    <Box component='img' src={"./"+dataFriend.img} sx={{ minWidth:'200px',width:'100%',maxWidth: '400px', margin: 0, padding: 0, aspectRatio: '2/1', objectFit: 'cover' }}></Box>
                     <Box sx={{ display: 'flex' }}>
                         <Box sx={{paddingLeft:'10px',paddingTop:'10px',}}>
                             <StyledBadge
@@ -54,7 +54,7 @@ export default function App({ dataFriend }) {
                                 anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
                                 variant="dot"
                             >
-                                <Avatar alt="Remy Sharp" src={dataFriend.author} />
+                                <Avatar alt="Remy Sharp" src={"./"+dataFriend.author} />
                             </StyledBadge>
                         </Box>
                         <Box sx={{paddingTop:'5px'}}>

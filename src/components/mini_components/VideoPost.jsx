@@ -46,7 +46,7 @@ const Post = ({ post }) => {
   return (
     <Card sx={{  marginLeft: 'auto', marginRight: 'auto', marginBottom: '10%', marginTop: '10%',boxShadow:'black 0 0 3px -1px'}}>
       <CardHeader
-        avatar={<Avatar aria-label="recipe" sx={{borderWidth:'1px',borderColor:'gray',borderStyle:'solid'}} src={post.image }>{post.author[0]}</Avatar>}
+        avatar={<Avatar aria-label="recipe" sx={{borderWidth:'1px',borderColor:'gray',borderStyle:'solid'}} src={"./"+post.image }>{post.author[0]}</Avatar>}
         action={
           <IconButton aria-label="settings">
             <MoreVert />
@@ -61,7 +61,7 @@ const Post = ({ post }) => {
         </Typography>
       </CardContent>
       {post.youtube&&post.youtube}
-      {post.video && <CardMedia component="video" controls sx={{aspectRatio:'16/9'}} src={post.video} alt="Post image" />}
+      {post.video && <CardMedia component="video" controls sx={{aspectRatio:'16/9'}} src={"./"+post.video} alt="Post image" />}
       <Box sx={{display:'flex',
   justifyContent: 'space-between'}}>
         

@@ -33,7 +33,7 @@ const Sidebar = () => {
         <List>
           {friendList.map((fl, index) =>
             <ListItem button key={index} sx={{ padding: '5px', margin: '0', width: '100%' }}>
-            <CardMedia  component="img" src={fl.thumbnail} sx={{maxWidth:'200px', borderRadius:'15px'}}/>
+            <CardMedia  component="img" src={"./"+fl.thumbnail} sx={{maxWidth:'200px', borderRadius:'15px'}}/>
               <Box sx={{padding:'10px'}}>
               <Typography sx={{padding:'10px'}}>{fl.title}</Typography>
               <ListItemIcon>

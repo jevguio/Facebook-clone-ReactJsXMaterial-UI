@@ -48,7 +48,7 @@ export default function Mini_profile({ data }) {
   anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
   variant="dot"
 >
-  <Avatar alt="Remy Sharp" src={data.src} />
+  <Avatar alt="Remy Sharp" src={"./"+data.src} />
 </StyledBadge>
             <Typography sx={{textAlign:'center',alignContent:'center',paddingLeft:'5px',fontWeight:'bold'}}>{data.fname}</Typography>
         </Box>

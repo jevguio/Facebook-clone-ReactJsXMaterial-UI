@@ -84,7 +84,7 @@ const Post = ({ post,setPost }) => {
     <Card sx={{   marginLeft: 'auto', marginRight: 'auto', marginBottom: '10%', marginTop: '10%', boxShadow: 'black 0 0 3px -1px' }}>
 
       <CardHeader
-        avatar={<Avatar aria-label="recipe" src={post.profile}>{post.author[0]}</Avatar>}
+        avatar={<Avatar aria-label="recipe" src={"./"+post.profile}>{post.author[0]}</Avatar>}
         action={
           <IconButton aria-label="settings">
             <MoreVert />
@@ -99,9 +99,9 @@ const Post = ({ post,setPost }) => {
         </Typography>
       </CardContent>
 
-      {post.image && <CardMedia component="img" image={post.image} alt="Post image" onClick={(e)=>onPreviewHanlder(e,post)}/>}
+      {post.image && <CardMedia component="img" image={"./"+post.image} alt="Post image" onClick={(e)=>onPreviewHanlder(e,post)}/>}
       {post.youtube&&post.youtube}
-      {post.video && <CardMedia component="video" src={post.video} controls alt="Post image" onClick={(e)=>onPreviewHanlder(e,post)}/>}
+      {post.video && <CardMedia component="video" src={"./"+post.video} controls alt="Post image" onClick={(e)=>onPreviewHanlder(e,post)}/>}
       <Box sx={{ display: 'flex' ,justifyContent:'space-between'}}>
         <CardActions sx={{ display: 'flex', width: 'auto' }}>
           <Emoj icon='Like' color="white" bgcolor='#1877F2' round='50%' width='25px'></Emoj>

@@ -85,14 +85,14 @@ function App({ post, setPost }) {
         <Box sx={{ width: portrait?'100%':'60%', backgroundColor: 'rgba(0,0,0,0.85)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', padding: '10px', backgroundBlendMode: 'darken' }}>
 
           <Button sx={{ aspectRatio: '1/1', position: 'absolute',marginTop:portrait?'7%':'2%', borderRadius: '100%', backgroundColor: 'rgba(110,110,110,110.5)', color: 'white', zIndex: 1 }} onClick={CloseHandler}><CloseOutlined></CloseOutlined></Button>
-          {post.image && <CardMedia component="img" image={post.image} alt="Post image" sx={{ aspectRatio: '8/16', width: 'auto', maxHeight: '600px', marginLeft: 'auto', marginRight: 'auto' }} />}
-          {post.video && <CardMedia component="video" src={post.video} controls alt="Post image" />}
+          {post.image && <CardMedia component="img" image={"./"+post.image} alt="Post image" sx={{ aspectRatio: '8/16', width: 'auto', maxHeight: '600px', marginLeft: 'auto', marginRight: 'auto' }} />}
+          {post.video && <CardMedia component="video" src={"./"+post.video} controls alt="Post image" />}
         </Box>
         
         <Box sx={{ width: '35%' ,display:portrait?'none':'block'}}>
           <Card>
             <CardHeader
-              avatar={<Avatar aria-label="recipe" src={post.profile}>{post.author[0]}</Avatar>}
+              avatar={<Avatar aria-label="recipe" src={"./"+post.profile}>{post.author[0]}</Avatar>}
               action={
                 <IconButton aria-label="settings">
                   <MoreVert />
