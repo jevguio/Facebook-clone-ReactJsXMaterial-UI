@@ -16,19 +16,19 @@ import { CssBaseline } from '@mui/material'
 
 const router = createBrowserRouter([
   {
-    path: "./",
+    path: "/Facebook-clone-ReactJsXMaterial-UI/",
     element: <App></App>,
     errorElement:<Error error={true}></Error>
   },{
-    path: "./Login",
+    path: "/Facebook-clone-ReactJsXMaterial-UI/Login",
     element: <Login></Login>,
     errorElement:<Error error={true}></Error>
   },  {
-    path: "./Dashboard",
+    path: "/Facebook-clone-ReactJsXMaterial-UI/Dashboard",
     element: <Dashboard></Dashboard>,
     errorElement:<Error errors={true}></Error>
   }, {
-    path: "./PostView",
+    path: "/Facebook-clone-ReactJsXMaterial-UI/PostView",
     element: <Dashboard page='preview'></Dashboard>,
     errorElement:<Error errors={true}></Error>
   },
