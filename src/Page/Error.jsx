@@ -5,7 +5,7 @@ import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline';
 const ErrorPage = () => {
   const handleGoBack = () => {
     // Logic to navigate back to the homepage or previous page
-    window.location.href = '/'; // Adjust this according to your routing setup
+    window.location.href = './'; // Adjust this according to your routing setup
   };
 
   return (
