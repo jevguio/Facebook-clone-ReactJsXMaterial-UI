@@ -1,0 +1,15 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+.root{
+    
+    width: 100%;
+}
+*{
+    transition: width 0.6s, padding 0.6s, background-color 0.6s,margin 0.6s;
+}
+Tooltip{
+    
+    transition: none;
+}
