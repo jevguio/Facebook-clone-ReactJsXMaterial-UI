@@ -57,7 +57,7 @@ const Login = () => {
     e.preventDefault();
     {
       user.username === 'jev' && user.password === 'guio' ?
-      window.location = '/dashboard'
+      window.location = './#/dashboard'
       :
       setErrorLog(true);
     }
