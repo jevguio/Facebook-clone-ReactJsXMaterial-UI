@@ -16,19 +16,19 @@ import { CssBaseline } from '@mui/material'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "./",
     element: <App></App>,
     errorElement:<Error error={true}></Error>
   },{
-    path: "/Login",
+    path: "./Login",
     element: <Login></Login>,
     errorElement:<Error error={true}></Error>
   },  {
-    path: "/Dashboard",
+    path: "./Dashboard",
     element: <Dashboard></Dashboard>,
     errorElement:<Error errors={true}></Error>
   }, {
-    path: "/PostView",
+    path: "./PostView",
     element: <Dashboard page='preview'></Dashboard>,
     errorElement:<Error errors={true}></Error>
   },
