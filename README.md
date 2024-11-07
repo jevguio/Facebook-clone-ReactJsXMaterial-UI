@@ -1,5 +1,4 @@
-
-![Facebook-clone-ReactJsXMaterial-UI](https://socialify.git.ci/jevguio/Facebook-clone-ReactJsXMaterial-UI/image?description=1&font=Rokkitt&forks=1&issues=1&language=1&logo=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fcd%2FFacebook_logo_%2528square%2529.png%2F800px-Facebook_logo_%2528square%2529.png&name=1&owner=1&pulls=1&stargazers=1&theme=Auto)
+ ![Facebook-clone-ReactJsXMaterial-UI](https://socialify.git.ci/jevguio/Facebook-clone-ReactJsXMaterial-UI/image?description=1&descriptionEditable=This%20project%20is%20a%20Facebook%20clone%20built%20using%20React.js%20and%20Material-UI.%20The%20application%20replicates%20the%20static%20features%20of%20Facebook.&font=Rokkitt&forks=1&issues=1&language=1&logo=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fcd%2FFacebook_logo_%2528square%2529.png%2F800px-Facebook_logo_%2528square%2529.png&name=1&owner=1&pulls=1&stargazers=1&theme=Auto)
 
 # Facebook Clone
 [Preview Page](https://jevguio.github.io/Facebook-clone-ReactJsXMaterial-UI/)
